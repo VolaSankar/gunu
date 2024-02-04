@@ -1,0 +1,142 @@
+
+body{
+	background: rgb(243,255,208);
+background: linear-gradient(180deg, rgba(243,255,208,1) 3%, rgba(196,240,178,1) 30%, rgba(218,255,253,1) 50%, rgba(214,222,255,1) 82%, rgba(254,227,255,1) 100%),
+url('../images/b16.png');
+
+	background-blend-mode:multiply;
+	
+	
+}
+form{
+	background:url(../images/b15.png)no-repeat left top rgba(0,0,0,0.5);
+	width:600px;
+	margin:40px auto;
+	padding:20px;
+	height:auto;
+	background-size:cover;	
+}
+form label{
+	color:#fff;  
+	font-size:18px;
+	font-family:'open sans',sans-serif;
+	font-weight:bold;
+	width:200px;
+	display:inline-block;   	
+	}
+input{
+	background:#f4f4f4;
+	border:1px solid #000;
+	width:300px;
+	height:30px;
+	line-height:30px;
+	padding:0.5px;
+	box-shadow:0 0 5px #333 inset;
+	margin-bottom:2px;
+	color:#000;
+	font-size:15px;
+	font-family:'open sans',sans-serif;
+}
+input[type="radio"],input[type="checkbox"]{
+	width:auto;
+	height:auto;
+}
+select{
+	background:#f4f4f4;
+	border:1px solid #000;
+    width:310px;
+    height:30px;
+line-height:30px;
+box-shadow:0 0 5px #333 inset;
+margin-bottom:15px;
+color:#000;
+font-size:15px;
+	
+}
+	textarea{
+		background:pink;
+		border:1px solid pink;
+		width:310px;
+		height:30px;
+		line-height:150px;
+		box-shadow:0 0 5px #444 inset;
+		margin-bottom:15px;
+		color:#000;
+		font-size:10px;
+}
+input[type="submit"]{
+	background:#f00f00;
+	border:1px solid #ff0000;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	padding:0 10px;
+	box-shadow:0 0 5px #fff inset;
+	margin-bottom:15px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+	transition: all ease-in .2s;
+	
+}
+input[type="reset"]{
+	 transition: all ease-in .3s;
+	background:#00f000;
+	border:1px solid #ff0000;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	padding:0 10px;
+	box-shadow:0 0 5px #fff inset;
+	margin-bottom:15px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	cursor:pointer;
+}
+input[type="submit"]:hover{
+	background:yellow;
+}
+input[type="reset"]:hover{
+	background:pink;
+}
+table{
+	
+	height:40px;
+	margin:40px auto;
+	width:800px;
+	
+	
+}
+tr th{
+	background:url(../images/bg7.jpg) no-repeat left top;
+	background-size:cover;
+	height:50px;
+	transition:all ease-in 0.2s;
+	
+}
+tr{
+	background:#6EE6E4;
+}
+tr:nth-child(even){
+	background:#62B8B7;
+}
+tr:hover{
+	background:#B9E7E6;
+}
+ul{
+	margin:o;
+	padding:0;
+	
+}
+ul li{
+	list-style:none;
+	background:url(../images/im1.png) no-repeat left top;
+	padding-left:40px;
+	background-size:5%;
+	margin-bottom:10px;
+
+	
+}

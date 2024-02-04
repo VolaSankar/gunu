@@ -1,0 +1,18 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	background:url(../images/bg6.jpg) repeat left top rgba(50,140,8,0.5);
+    background-blend-mode:multiply;	
+}
+tr{
+	background: rgb(255,191,118);
+}
+tr:nth-child(even){
+	background:#E9775F ;
+}
+tr:hover{
+	background: rgb(255,191,118);
+    background: linear-gradient(90deg, rgba(255,191,118,1) 0%, rgba(255,255,255,1) 50%, rgba(79,217,134,1) 100%);
+	 transition: all ease-in .3s;
+}
